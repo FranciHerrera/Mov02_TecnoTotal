@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Los primeros tres ítems siempre estarán visibles en la barra -->
+    <item
+        android:id="@+id/itmInfoUsuario"
+        android:icon="@drawable/baseline_assignment_account"
+        android:title="@string/menu_account"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itmComprar"
+        android:icon="@drawable/baseline_add_shopping"
+        android:title="@string/menu_buy"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itmPromocion"
+        android:icon="@drawable/baseline_disccount"
+        android:title="@string/menu_promo"
+        app:showAsAction="always" />
+
+    <!-- Los ítems restantes se mostrarán en el menú de desbordamiento -->
+    <item
+        android:id="@+id/itmHistorial"
+        android:icon="@drawable/baseline_assignment_historial"
+        android:title="@string/menu_history"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itmDevoluciones"
+        android:icon="@drawable/baseline_arrow_circle_left"
+        android:title="@string/menu_regrets"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itmContacto"
+        android:icon="@drawable/baseline_contact"
+        android:title="@string/menu_about"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itmNotificaciones"
+        android:icon="@drawable/baseline_feedback"
+        android:title="@string/menu_notifications"
+        app:showAsAction="never" />
+
+</menu>

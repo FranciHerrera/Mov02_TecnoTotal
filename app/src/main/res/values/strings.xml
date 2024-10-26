@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Tecno-Total</string>
+    <!-- Login -->
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="login_button">Ingresar</string>
+    <string name="login_button_register">Registrar</string>
+    <string name="login_button_exit">Salir</string>
+    <!-- Menu -->
+    <string name="menu_account">Perfil</string>
+    <string name="menu_buy">Comprar</string>
+    <string name="menu_promo">Promoción</string>
+    <string name="menu_history">Historial</string>
+    <string name="menu_regrets">Devoluciones</string>
+    <string name="menu_about">Acerca de nosotros</string>
+    <string name="menu_notifications">Noticias</string>
+    <!-- About -->
+    <string name="about">Acerca de nosotros</string>
+    <string name="about_info">
+        Tecno-Total es una herramienta innovadora diseñada para facilitar la gestión de productos y pedidos de manera eficiente.
+        Nuestra aplicación ofrece una interfaz intuitiva y fácil de usar, pensada para optimizar tus tareas diarias, ahorrando tiempo
+        y mejorando la productividad.
+    </string>
+    <string name="about_title1">Características principales</string>
+    <string name="about_subtitle1">
+        • Gestión de productos: Agrega, edita y consulta tus productos fácilmente.\n
+        • Pedidos personalizados: Organiza y realiza seguimientos de pedidos de forma eficiente.\n
+        • Interfaz amigable: Nuestra app utiliza un diseño moderno con colores suaves y botones de fácil acceso para mejorar la
+        experiencia del usuario.\n
+        • Actualizaciones constantes: Nos esforzamos por mejorar continuamente la aplicación con nuevas funciones y mejoras en el
+        rendimiento.
+    </string>
+    <string name="about_title2">Misión</string>
+    <string name="about_subtitle2">
+        Ofrecer una herramienta eficaz que simplifique los procesos de gestión, permitiendo a nuestros usuarios centrarse en lo que
+        realmente importa: hacer crecer su negocio.
+    </string>
+    <string name="about_title3">Visión</string>
+    <string name="about_subtitle3">
+        Convertirnos en una aplicación líder en el mercado, ofreciendo soluciones innovadoras que se adapten a las necesidades
+        cambiantes de nuestros usuarios.
+    </string>
+    <!-- News -->
+    <string name="news_title">Noticias</string>
+    <string name="news_info">No disponible</string>
+    <!-- Profile -->
+    <string name="profile_title">Perfil</string>
+    <string name="profile_name">Nombre</string>
+    <string name="profile_email">Correo</string>
+    <string name="profile_date">Fecha de creación</string>
+    <string name="profile_button_password">Restablecer contraseña</string>
+    <!-- Promo -->
+    <string name="promo_title">Promociones</string>
+    <string name="promo_info">Las promociones disponibles</string>
+    <string name="promo_button_scanner">Escanear código de promoción</string>
+    <!-- Purchase -->
+    <string name="purchase_title">Comprar</string>
+    <string name="purchase_products">Productos disponibles</string>
+    <string name="purchase_list_of_products">Lista de compras</string>
+    <string name="purchase_button_get">Agregar producto</string>
+    <string name="purchase_button_pay">Ir a pagar</string>
+    <!-- Pay -->
+    <string name="pay_title">Pagar productos</string>
+    <string name="pay_resume">No disponible</string>
+    <string name="pay_price">$0</string>
+    <string name="pay_promo">Aplicar descuento</string>
+    <string name="pay_route_from">Inicio de ruta</string>
+    <string name="pay_route_to">Fin de ruta</string>
+    <string name="pay_button_check_route">Revisar ruta</string>
+    <string name="pay_button">Pagar</string>
+    <!-- Purchase record -->
+    <string name="purch_record_title">Historial de compras</string>
+    <string name="purch_record_subtitle">No disponible</string>
+    <!-- Refund -->
+    <string name="refund_title">Devolver producto</string>
+    <string name="refund_info">Escribe o escanea el código de barras</string>
+    <string name="refund_advice">Producto a devolver</string>
+    <string name="refund_reason">Motivo</string>
+    <string name="refund_button_picture">Tomar evidencias</string>
+    <string name="refund_button_scanner">Escanear</string>
+    <string name="refund_button">Regresar producto</string>
+</resources>
