@@ -7,7 +7,7 @@
     tools:context=".AboutActivity">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/barra_news"
+        android:id="@+id/barra_about"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
@@ -24,7 +24,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barra_news">
+        app:layout_constraintTop_toBottomOf="@+id/barra_about">
 
         <TextView
             android:id="@+id/textView"
