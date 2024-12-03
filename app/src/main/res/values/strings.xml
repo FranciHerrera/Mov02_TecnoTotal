@@ -6,6 +6,11 @@
     <string name="login_button">Ingresar</string>
     <string name="login_button_register">Registrar</string>
     <string name="login_button_exit">Salir</string>
+    <string name="text_login">Ir iniciar sesion</string>
+    <string name="text_register">Ir a Registrar</string>
+    <string name="register">Registrar usuario</string>
+    <string name="login">Iniciar sesion</string>
+    <string name="boton_google">Iniciar sesion por Google</string>
     <!-- Menu -->
     <string name="menu_account">Perfil</string>
     <string name="menu_buy">Comprar</string>
@@ -79,4 +84,5 @@
     <string name="refund_button_picture">Tomar evidencias</string>
     <string name="refund_button_scanner">Escanear</string>
     <string name="refund_button">Regresar producto</string>
+    <string name="default_web_client_id">339581805152-i5r2p84qcqlj5fe4a2t9end0e7v8rod3.apps.googleusercontent.com</string>
 </resources>

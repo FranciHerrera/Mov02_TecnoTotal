@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".RegisterActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -13,9 +13,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.205">
+        app:layout_constraintVertical_bias="0.237">
 
         <ImageView
             android:id="@+id/imageView"
@@ -24,20 +25,21 @@
             android:src="@drawable/logototal" />
 
         <EditText
-            android:id="@+id/edtCorreo"
+            android:id="@+id/edtCorreoRegistro"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/email"
-            android:inputType="textEmailAddress" />
+            android:inputType="text" />
 
         <EditText
-            android:id="@+id/edtContrasena"
+            android:id="@+id/edtContrasenaRegistro"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/password"
             android:inputType="textPassword" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -52,21 +54,21 @@
         app:layout_constraintVertical_bias="0.0">
 
         <Button
-            android:id="@+id/btnIngresar"
+            android:id="@+id/btnRegistrarUsuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/login_button" />
+            android:text="@string/login_button_register" />
 
         <Button
-            android:id="@+id/btnRegistrar"
+            android:id="@+id/btnIngresarRegreso"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/text_register" />
+            android:text="@string/text_login" />
 
         <Button
-            android:id="@+id/btnSalir"
+            android:id="@+id/btnSalirRegistro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -74,25 +76,14 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:text="@string/login"
+        android:layout_marginTop="40dp"
+        android:text="@string/register"
         android:textColor="#673AB7"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnGoogle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
-        android:text="@string/boton_google"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 </androidx.constraintlayout.widget.ConstraintLayout>
