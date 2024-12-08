@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txtCodigoProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Código del producto"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMotivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motivo" />
+
+    <ImageView
+        android:id="@+id/imgFotoRefund"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/txtFechaDevolucion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de devolución" />
+</LinearLayout>

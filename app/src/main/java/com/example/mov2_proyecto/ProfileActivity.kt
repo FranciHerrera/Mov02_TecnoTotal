@@ -36,7 +36,6 @@ class ProfileActivity : AppCompatActivity() {
                 .get()
                 .addOnSuccessListener { document ->
                     if (document.exists()) {
-                        // Obtener los datos desde Firestore
                         val email = document.getString("email")
                         val creationDate = document.getLong("fecha_creacion")
 

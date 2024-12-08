@@ -23,9 +23,24 @@
 
     <!-- Los ítems restantes se mostrarán en el menú de desbordamiento -->
     <item
+        android:id="@+id/itmPagar"
+        android:icon="@drawable/baseline_feedback"
+        android:title="Ir a pagar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itmRegistrar"
+        android:icon="@drawable/baseline_feedback"
+        android:title="@string/itemRegistrar"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/itmHistorial"
         android:icon="@drawable/baseline_assignment_historial"
         android:title="@string/menu_history"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itmVerDevoluciones"
+        android:icon="@drawable/baseline_assignment_historial"
+        android:title="Ver devoluciones"
         app:showAsAction="never" />
 
     <item
@@ -38,12 +53,6 @@
         android:id="@+id/itmContacto"
         android:icon="@drawable/baseline_contact"
         android:title="@string/menu_about"
-        app:showAsAction="never" />
-
-    <item
-        android:id="@+id/itmNotificaciones"
-        android:icon="@drawable/baseline_feedback"
-        android:title="@string/menu_notifications"
         app:showAsAction="never" />
 
 </menu>

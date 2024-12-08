@@ -33,24 +33,33 @@
             android:text="@string/promo_title"
             android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:justificationMode="inter_word"
-            android:text="@string/promo_info" />
-
         <Button
             android:id="@+id/btnEscanearPromo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/promo_button_scanner" />
 
+        <TextView
+            android:id="@+id/txtPromocion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
         <ImageView
             android:id="@+id/imgPromocion"
             android:layout_width="match_parent"
             android:layout_height="269dp"
             app:srcCompat="@drawable/baseline_disccount" />
+
+        <Button
+            android:id="@+id/btnRegistrarPromo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar promocion" />
+
+        <TextView
+            android:id="@+id/txtmisPromociones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
