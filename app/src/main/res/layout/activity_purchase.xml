@@ -46,12 +46,6 @@
             android:layout_width="match_parent"
             android:layout_height="112dp" />
 
-        <Button
-            android:id="@+id/btnAgregar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/purchase_button_get" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="126dp"

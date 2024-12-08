@@ -85,4 +85,7 @@
     <string name="refund_button_scanner">Escanear</string>
     <string name="refund_button">Regresar producto</string>
     <string name="default_web_client_id">339581805152-i5r2p84qcqlj5fe4a2t9end0e7v8rod3.apps.googleusercontent.com</string>
+    <string name="itemRegistrar">Registrar Productos</string>
+    <string name="google_maps_key">AIzaSyB28ehgYtmOx69HIWOBcmxQVDRGLPxhFzI</string>
+
 </resources>

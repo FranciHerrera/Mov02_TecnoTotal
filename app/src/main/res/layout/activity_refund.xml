@@ -47,6 +47,12 @@
             android:layout_height="wrap_content"
             android:text="@string/refund_button_scanner" />
 
+        <Button
+            android:id="@+id/btnVerificar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Revisar codigo" />
+
         <TextView
             android:id="@+id/textRefund"
             android:layout_width="match_parent"
@@ -70,7 +76,7 @@
         <ImageView
             android:id="@+id/imgMotivo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="108dp"
             tools:srcCompat="@tools:sample/avatars" />
 
         <Button

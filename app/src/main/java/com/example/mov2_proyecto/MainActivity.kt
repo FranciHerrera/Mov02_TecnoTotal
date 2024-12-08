@@ -40,16 +40,25 @@ class MainActivity : AppCompatActivity() {
                 intent = Intent(applicationContext, PurchaseRecordActivity::class.java)
                 startActivity(intent)
             }
-            R.id.itmNotificaciones -> {
-                intent = Intent(applicationContext, NewsActivity::class.java)
-                startActivity(intent)
-            }
+
             R.id.itmInfoUsuario -> {
                 intent = Intent(applicationContext, ProfileActivity::class.java)
                 startActivity(intent)
             }
             R.id.itmPromocion -> {
                 intent = Intent(applicationContext, PromoActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.itmRegistrar -> {
+                intent=Intent(applicationContext,RegistrarProducto::class.java)
+                startActivity(intent)
+            }
+            R.id.itmPagar -> {
+                intent=Intent(applicationContext,PayActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.itmVerDevoluciones ->{
+                intent=Intent(applicationContext,ViewRefund::class.java)
                 startActivity(intent)
             }
         }

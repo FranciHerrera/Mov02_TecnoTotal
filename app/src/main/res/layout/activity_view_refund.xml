@@ -4,10 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PurchaseRecordActivity">
-
+    tools:context=".ViewRefund">
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/barra_purchase_record"
+        android:id="@+id/barra_refund_record"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
@@ -24,17 +23,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barra_purchase_record">
+        app:layout_constraintTop_toBottomOf="@+id/barra_refund_record">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/txtTitleRefund"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/purch_record_title"
+            android:text="Historial de devoluciones"
             android:textSize="20sp" />
 
         <ListView
-            android:id="@+id/listHistorial"
+            android:id="@+id/listHistorialRefund"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
